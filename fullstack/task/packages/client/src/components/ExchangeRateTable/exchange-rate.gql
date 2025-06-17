@@ -1,0 +1,9 @@
+query ExchangeRate {
+    exchangeRates {
+        currency
+        createdAtUtc
+        rate
+        country
+        currencyCode
+    }
+}
